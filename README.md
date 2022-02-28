@@ -16,3 +16,6 @@ This app is written using Python 3.9.5, following best practices.
 ## Change Log
 
 version 0.1.0 ; 27/2/2022 Initiated
+
+## PR
+[PULl-1](https://github.com/Ammaro173/snakes-cafe/pull/1)

@@ -8,7 +8,7 @@
 # 28/2
 # Assigning
 cafe_menue = ["wings", "cookies", "spring", "rolls", "salmon", "meat tornado",
-              "a literal garden", "ice cream ", "cake", "pie", "coffe", "tea", "unicorn tears"]
+              "a literal garden", "ice cream ", "cake", "pie", "coffee", "tea", "unicorn tears"]
 order_list = {}
 quantity = 1
 # printing the interface
@@ -52,7 +52,9 @@ Unicorn Tears
 
 while True:
     user_input = input(">").lower()
+
     if user_input == "quit":
+
         break
     elif user_input in cafe_menue:
         if user_input in order_list:
@@ -71,3 +73,9 @@ while True:
     else:
         print(
             f"unfortunately,this item ({user_input}) is not availabe on the menu, Kindly Choose another! \n")
+
+        # helped by Barahm!!
+    # print("Your Total Order is : ", *order_list, sep='\n')
+    # my idea is for loop and key :value in..
+    for key in order_list:
+        print(key, ' : ', order_list[key])
